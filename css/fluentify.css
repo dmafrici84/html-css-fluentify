@@ -66,6 +66,8 @@ nav::after{
 button {
   color: white;
   border-radius: 8px;
+  background-color: green;
+  border-color: green;
 }
 button:hover {
   cursor: pointer;
@@ -79,8 +81,6 @@ button:hover {
 .button2 {
   height: 45px;
   width: 175px;
-  background-color: green;
-  border-color: green;
 }
 /* impostazioni contenitore titolo */
 .contenitoretitolo{
@@ -112,13 +112,13 @@ h1 {
 }
 /* impostazioni main */
 /* impostazioni blocco prima riga main */
-.bloccosezioni {
+.bloccoprimasez {
   height: 150px;
   background-color: lightgrey;
   margin-bottom: 20px;
   position: relative;
 }
-.bloccosezioni div {
+.bloccoprimasez div {
   width: 100%;
   position: absolute;
   top: 50%;
@@ -126,12 +126,12 @@ h1 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.bloccosezioni h3 {
+.bloccoprimasez h3 {
   font-size: 28px;
   text-align: center;
   margin-bottom: 12px;
 }
-.bloccosezioni p {
+.bloccoprimasez p {
   text-align: center;
   color: grey;
   font-size: 22px;
@@ -187,9 +187,6 @@ h1 {
   background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-monitora.svg);
 }
 /* impostazioni blocco terza riga main */
-.bloccoterzasez {
-
-}
 .bloccoterzasez::after {
   content: "";
   display: table;
@@ -224,3 +221,86 @@ h1 {
   margin-bottom: 20px;
 }
 /* impostazioni quarta riga del main */
+.bloccoquartasez {
+  height: 150px;
+  background-color: lightgrey;
+  margin-bottom: 20px;
+}
+.bloccoquartasez::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* impostazioni generali colonne quarta riga del main */
+.colonquartasez {
+  float: left;
+  width: 50%;
+  height: 150px;
+  position: relative;
+}
+/* impostazioni prima coloanna dellq quarta riga del main*/
+.colonquartasez h3 {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left:2%;
+  transform: translateY(-50%);
+}
+/* impostazioni seconda colonna della quarta riga del main */
+.colonquartasez::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.subcolonna{
+  float: left;
+  width: 50%;
+  height: 150px;
+}
+.subcolonnasx {
+  position: relative;
+}
+.subcolonnasx ul{
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  left:2%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.subcolonnasx ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.subcolonnasx li {
+  float: left;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.subcolonnasx a {
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
+}
+.subcolonnadx{
+  position: relative;
+}
+.subcolonnadx .button4 {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
+  width: 180px;
+}
+.subcolonnadx .button5 {
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  transform: translatex(-50%);
+  height: 30px;
+  width: 60px;
+}
