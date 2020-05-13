@@ -1,3 +1,4 @@
+/* impostazioni generali */
 * {
   margin: 0;
   padding: 0;
@@ -6,14 +7,16 @@
 .paddinggenerale {
   padding: 0 10%;
 }
+/* impostazioni header */
 header{
   background-color: darkblue;
-  height: 500px;
 }
+/* impostazioni barra di navigazione */
 nav {
   padding-top: 20px;
   margin-bottom: 45px;
 }
+/* impostazioni colonne barra di navigazione */
 nav::after{
   content: "";
   display: table;
@@ -23,6 +26,7 @@ nav::after{
   float: left;
   height: 50px;
 }
+/* impostazione prima colonna barra di navigazione */
 #logonav{
   width: 10%;
   margin-right: 2%;
@@ -31,6 +35,7 @@ nav::after{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+/* impostazioni seconda colonna barra di navigazione */
 .contenitorelinknav {
   width: 50%;
 }
@@ -54,10 +59,10 @@ nav::after{
   color: white;
   text-decoration: none;
 }
+/* impostazioni terza colonna barra di navigazione */
 .contenitorebuttonnav {
   width: 38%;
 }
-
 button {
   color: white;
   border-radius: 8px;
@@ -73,27 +78,28 @@ button:hover {
 }
 .button2 {
   height: 45px;
-  width: 180px;
+  width: 175px;
   background-color: green;
   border-color: green;
 }
+/* impostazioni contenitore titolo */
 .contenitoretitolo{
   height: 385px;
   background-image: url(../img/fluentify-jumbo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 112% 50%;
+  background-position: 120% 50%;
   position: relative;
 }
 .bloccotitolo {
-  width: 45%;
+  width: 50%;
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-70%);
 }
 h1 {
-  font-size: 55px;
+  font-size: 58px;
   color: white;
   margin-bottom: 40px;
 }
@@ -104,10 +110,29 @@ h1 {
   background-color: green;
   border-color: green;
 }
-
-
-
-main {
-  height: 100px;
-  background-color: grey;
+/* impostazioni main */
+/* impostazioni blocco prima riga main */
+.bloccosezioni {
+  height: 150px;
+  background-color: lightgrey;
+  position: relative;
 }
+.bloccosezioni div {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.bloccosezioni h3 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.bloccosezioni p {
+  text-align: center;
+  color: grey;
+  font-size: 22px;
+}
+/* impostazioni blocco seconda riga main */
