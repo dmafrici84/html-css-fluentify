@@ -30,7 +30,7 @@ nav::after{
 #logonav{
   width: 10%;
   margin-right: 2%;
-  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-logo.svg);
+  background-image: url(file:///C:/Users/dmafr/Desktop/esercizi-boolean/html-css-fluentify/fluentify-imgs/fluentify-logo.svg);
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -173,18 +173,18 @@ h1 {
 }
 /* impostazioni  prima colonna della seconda riga del main */
 .imgprima{
-  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-piano.svg);
+  background-image: url(file:///C:/Users/dmafr/Desktop/esercizi-boolean/html-css-fluentify/fluentify-imgs/fluentify-piano.svg);
 }
 /* impostazioni seconda colonna della seconda riga del main */
 .secondacolsecsez {
   margin: 0 2%;
 }
 .imgseconda{
-  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-affiancamento.svg);
+  background-image: url(file:///C:/Users/dmafr/Desktop/esercizi-boolean/html-css-fluentify/fluentify-imgs/fluentify-affiancamento.svg);
 }
 /* impostazioni terz colonna della seconda riga del main */
 .imgterza{
-  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-monitora.svg);
+  background-image: url(file:///C:/Users/dmafr/Desktop/esercizi-boolean/html-css-fluentify/fluentify-imgs/fluentify-monitora.svg);
 }
 /* impostazioni blocco terza riga main */
 .bloccoterzasez::after {
@@ -203,7 +203,7 @@ h1 {
 /* impostazioni prima colonna della terza riga del main */
 .imgterzasez {
   height: 350px;
-  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-scopri.svg);
+  background-image: url(file:///C:/Users/dmafr/Desktop/esercizi-boolean/html-css-fluentify/fluentify-imgs/fluentify-scopri.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -224,7 +224,6 @@ h1 {
 .bloccoquartasez {
   height: 150px;
   background-color: lightgrey;
-  margin-bottom: 20px;
 }
 .bloccoquartasez::after {
   content: "";
