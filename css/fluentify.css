@@ -137,9 +137,9 @@ h1 {
   font-size: 22px;
 }
 /* impostazioni blocco seconda riga main */
-..bloccosecondasez {
-  border-bottom: solid 2px grey;
-  margin: 20px;
+.bloccosecondasez {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .bloccosecondasez::after{
   content: "";
@@ -186,3 +186,41 @@ h1 {
 .imgterza{
   background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-monitora.svg);
 }
+/* impostazioni blocco terza riga main */
+.bloccoterzasez {
+
+}
+.bloccoterzasez::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* impostazioni generali colonne terza riga */
+.colonterzasez {
+  float: left;
+  width: 50%;
+  border-top: solid 1px grey;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+/* impostazioni prima colonna della terza riga del main */
+.imgterzasez {
+  height: 350px;
+  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-scopri.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* impostazioni seconda colonna della terza riga del main */
+.bloccoseccolterzasez{
+  width: 60%;
+  margin-left: 10%;
+}
+.colonterzasez h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.colonterzasez p {
+  margin-bottom: 20px;
+}
+/* impostazioni quarta riga del main */
