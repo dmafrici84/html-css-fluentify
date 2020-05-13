@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.paddinggenerale {
+  padding: 0 10%;
+}
+header{
+  background-color: darkblue;
+  height: 500px;
+}
+nav {
+  padding-top: 20px;
+  margin-bottom: 45px;
+}
+nav::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.barranav{
+  float: left;
+  height: 50px;
+}
+#logonav{
+  width: 10%;
+  margin-right: 2%;
+  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-logo.svg);
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.contenitorelinknav {
+  width: 50%;
+}
+.linknav {
+  width: 100%;
+  list-style-type: none;
+}
+.linknav::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.linknav li {
+  float: left;
+  height: 50px;
+  margin-right: 20px;
+  line-height: 50px;
+}
+.linknav li a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+.contenitorebuttonnav {
+  width: 38%;
+}
+
+button {
+  color: white;
+  border-radius: 8px;
+}
+button:hover {
+  cursor: pointer;
+}
+.button1 {
+  height: 50px;
+  width: 80px;
+  border: solid 2px white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.button2 {
+  height: 45px;
+  width: 180px;
+  background-color: green;
+  border-color: green;
+}
+.contenitoretitolo{
+  height: 385px;
+  background-image: url(../img/fluentify-jumbo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 112% 50%;
+  position: relative;
+}
+.bloccotitolo {
+  width: 45%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-70%);
+}
+h1 {
+  font-size: 55px;
+  color: white;
+  margin-bottom: 40px;
+}
+.button3 {
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+  background-color: green;
+  border-color: green;
+}
+
+
+
+main {
+  height: 100px;
+  background-color: grey;
+}
