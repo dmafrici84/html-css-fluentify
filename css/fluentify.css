@@ -115,6 +115,7 @@ h1 {
 .bloccosezioni {
   height: 150px;
   background-color: lightgrey;
+  margin-bottom: 20px;
   position: relative;
 }
 .bloccosezioni div {
@@ -136,3 +137,52 @@ h1 {
   font-size: 22px;
 }
 /* impostazioni blocco seconda riga main */
+..bloccosecondasez {
+  border-bottom: solid 2px grey;
+  margin: 20px;
+}
+.bloccosecondasez::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* impostazioni generali colonne secda riga */
+.colonsecondsez {
+  float: left;
+  width: 32%;
+  text-align: center;
+  padding: 5px;
+}
+.colonsecondsez div {
+  margin-bottom: 15px;
+}
+.imgsecsez {
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.colonsecondsez h2{
+  color: green;
+  font-size: 30px;
+}
+.bordosecsez{
+  width: 20%;
+  margin: 25px auto;
+  border-bottom: solid 2px grey;
+}
+/* impostazioni  prima colonna della seconda riga del main */
+.imgprima{
+  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-piano.svg);
+}
+/* impostazioni seconda colonna della seconda riga del main */
+.secondacolsecsez {
+  margin: 0 2%;
+}
+.imgseconda{
+  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-affiancamento.svg);
+}
+/* impostazioni terz colonna della seconda riga del main */
+.imgterza{
+  background-image: url(file:///C:/Users/dmafr/Downloads/fluentify-imgs/fluentify-monitora.svg);
+}
